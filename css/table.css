@@ -13,12 +13,15 @@
 .table-header th {
     padding-bottom: 10px;
 }
+/* show horizontal scroll bar if content can't wrap anymore  */
 .card-body {
     overflow: auto;
 }
+/* highlight every second row */
 .table-full tbody tr:nth-child(odd) {
     background-color: #f4f6f9;
 }
+/* highlight rows under cursor*/
 .table-full tbody tr:hover {
     background-color: #cbccce;
 }
