@@ -10,3 +10,15 @@
 .table-small {
     width: 5%;
 }
+.table-header th {
+    padding-bottom: 10px;
+}
+.card-body {
+    overflow: auto;
+}
+.table-full tbody tr:nth-child(odd) {
+    background-color: #f4f6f9;
+}
+.table-full tbody tr:hover {
+    background-color: #cbccce;
+}
