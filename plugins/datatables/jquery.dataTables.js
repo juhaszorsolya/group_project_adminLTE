@@ -11337,7 +11337,7 @@
 				 *      } );
 				 *    } );
 				 */
-				"sNext": "Next",
+				"sNext": "Következő oldal",
 	
 	
 				/**
@@ -11360,7 +11360,7 @@
 				 *      } );
 				 *    } );
 				 */
-				"sPrevious": "Previous"
+				"sPrevious": "Előző oldal"
 			},
 	
 			/**
@@ -11415,7 +11415,7 @@
 			 *      } );
 			 *    } );
 			 */
-			"sInfo": "Showing _START_ to _END_ of _TOTAL_ entries",
+			"sInfo": "Bejegyzések az oldalon: _START_ - _END_ -ig. Összesen: _TOTAL_ bejegyzés.",
 	
 	
 			/**
@@ -11576,7 +11576,7 @@
 			 *      } );
 			 *    } );
 			 */
-			"sLengthMenu": "Show _MENU_ entries",
+			"sLengthMenu": "Megjelenítés: _MENU_ bejegyzés/oldal.",
 	
 	
 			/**
@@ -11656,7 +11656,7 @@
 			 *      } );
 			 *    } );
 			 */
-			"sSearch": "Search:",
+			"sSearch": "Keresés:",
 	
 	
 			/**
