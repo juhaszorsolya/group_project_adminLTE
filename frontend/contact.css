@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Nunito';
+    src: url(/fonts/Nunito/Nunito-Regular.ttf);
+}
+@font-face {
+    font-family: 'Josefin_Sans';
+    src: url(/fonts/Josefin_Sans/JosefinSans-Regular.ttf);
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    background-color: #676767;
+    color: #fff;
+}
+
+.main-menu {
+    font-family: 'Nunito';
+    font-size: 1.3em;
+    padding: 1em;
+    text-align: left;
+}
+
+.main-menu-element {
+    text-decoration: none;
+    margin: 0em 0.7em;
+    color: #fff;
+}
+
+h1 {
+    font-family: 'Josefin_Sans';
+    font-size: 4em;
+}
+
+h2.header-short-title {
+    font-family: 'Josefin_Sans';
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.header-section {
+    width: 1200px;
+    position: relative;
+}
+
