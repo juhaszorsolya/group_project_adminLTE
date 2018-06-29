@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    display: block;
+}
+
+header, footer, section {
+width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    position: relative;
+    margin: 0 auto;
+    overflow: auto; /*nagyon ajánlott beállítani*/
+}
