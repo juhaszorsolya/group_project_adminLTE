@@ -81,7 +81,7 @@ header, footer, section {
     font-size: 8px;}
 
 .gaborsection2 {
-    background-color: #f5f5f0;
+    background-color:#C0C0C0;
     width: 100vw;
     height: 50vh;
 }
@@ -89,26 +89,26 @@ header, footer, section {
 .gabordiv2 {
     text-align: center;
     width: 40%;
-    margin-top: 80px;
+    margin-top: 100px;
     margin-right: auto;
     margin-bottom: 80px;
     margin-left: auto;
     letter-spacing: 1px;
     font-size: 14px;
    }
-
+   
    .gaborsection3 {
     background-color: #f5f5f0;
     width: 100vw;
-    height: 50vh;
+    height: 60vh;
 }
 
    .gabordiv3 {
     text-align: left;
-    margin-top: 80px;
+    margin-top: 120px;
     margin-right: auto;
     margin-bottom: 80px;
-    margin-left: auto;
+    margin-left: 180px;
     letter-spacing: 1px;
     font-size: 14px;
     position: relative;
@@ -119,9 +119,8 @@ header, footer, section {
    }
 
 .gabordiv4 {
-    text-align: right;
     margin-top: 80px;
-    margin-right: auto;
+    margin-right: 180px;
     margin-bottom: 80px;
     margin-left: auto;
     letter-spacing: 1px;
@@ -131,4 +130,9 @@ header, footer, section {
     width: 33.33%;
     float: right;
     height: auto;
-   }  
+   }
+
+.gaborimage1 {
+    max-width: 90%;
+    height: auto;
+}
