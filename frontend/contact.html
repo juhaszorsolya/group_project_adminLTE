@@ -12,49 +12,72 @@
 <body>
 
     <header>
-        <div>
-            <nav class="main-menu">
-                <a class="main-menu-element" href="">Főoldal</a>
-                <a class="main-menu-element" href="">Kapcsolat</a>
-                <a class="main-menu-element" href="">Hamarosan</a>
-                <a class="main-menu-element" href="">404</a>
-            </nav>
-        </div>
 
         <section class="header-section">
+            <div class="container">
 
-            <div class="header half">
-                <img src="/img/macbook-air.png" alt="headerpicture">
+                <nav class="main-menu">
+                    <a class="main-menu-element" href="">Főoldal</a>
+                    <a class="main-menu-element" href="">Kapcsolat</a>
+                    <a class="main-menu-element" href="">Hamarosan</a>
+                    <a class="main-menu-element" href="">404</a>
+                </nav>
+
+
+                <div class="header-half half">
+                    <img src="/img/macbook-air.png" alt="headerpicture">
+                </div>
+
+                <div class="header-half half">
+                    <h2 class="header-short-title">Lorem ipsum</h2>
+                    <h1 class="header-title">Placerat orci nulla pellentesque dignissim.</h1>
+                    <p class="header-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                        eu fugiat nulla pariatur.</p>
+                    <button class="btn header-btn">Vásárolok</button>
+                    <button class="btn header-btn">Üzenetet írok</button>
+                </div>
             </div>
-
-            <div class="header half">
-                <h2 class="header-short-title">Lorem ipsum</h2>
-                <h1 class="header-title">Placerat orci nulla pellentesque dignissim.</h1>
-                <p class="header-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                    nulla pariatur.</p>
-                <button class="header-btn">Vásárolok</button>
-                <button class="header-btn">Üzenetet írok</button>
-            </div>
-
         </section>
+
     </header>
-    <main>
-        <section class="contact">
-            <div>
-                <h2>Kapcsolat</h2>
-                <form action="">
 
-                </form>
-            </div>
-            <div>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel esse doloremque est reprehenderit?</p>
-                <p>Eget nulla facilisi etiam dignissim diam. Turpis massa sed elementum tempus. At lectus urna duis convallis
-                    convallis. Nulla at volutpat diam ut. Elementum nibh tellus molestie nunc non. Ac turpis egestas integer
-                    eget aliquet.</p>
+    <main>
+
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-description half half-bottom-left">
+                    <h2>Kapcsolat</h2>
+                    <form class="contact-form" action="post" id="contact-form">
+                        <label for="name">Név:</label>
+                        <br>
+                        <input class="input-box" type="text" id="name" name="name">
+                        <br>
+                        <label for="subject">Tárgy:</label>
+                        <br>
+                        <input class="input-box" type="text" id="subject" name="subject">
+                        <br>
+                        <label for="email">E-mail:</label>
+                        <br>
+                        <input class="input-box" type="email" id="email" name="email">
+                        <br>
+                        <label for="message">Üzenet:</label>
+                        <br>
+                        <textarea class="input-box" rows="6" name="message" id="message" form="contact-form"></textarea>
+                        <br>
+                        <button type="submit" class="btn submit-btn">Küldés</button>
+                    </form>
+                </div>
+                <div class="contact-description half">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel esse doloremque est reprehenderit?</p>
+                    <p>Eget nulla facilisi etiam dignissim diam. Turpis massa sed elementum tempus. At lectus urna duis convallis
+                        convallis. Nulla at volutpat diam ut. Elementum nibh tellus molestie nunc non. Ac turpis egestas
+                        integer eget aliquet.</p>
+                </div>
             </div>
         </section>
+
     </main>
 
 </body>
