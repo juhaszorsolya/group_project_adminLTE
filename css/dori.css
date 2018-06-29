@@ -142,7 +142,7 @@ a:link {
     filter: none;
 }
 .submit-form {
-    width: 500px;
+    max-width: 500px;
     margin: 25px auto;
 }
 .rounded-from-left, .rounded-from-right {
