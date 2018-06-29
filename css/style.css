@@ -37,3 +37,31 @@ header, footer, section {
 .centered {
 
 }
+
+.ipad {
+    width: 99.99%;
+}
+
+section {
+    padding: 20vh 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.text-color {
+    color: #5e655e;
+}
+
+.text-left {
+    padding-right: 10vw;
+}
+
+.text-right {
+    padding-left: 10vw;
+}
+
+.gaborsection2 {
+    background-color: #f5f5f0;
+}
