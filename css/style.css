@@ -12,3 +12,24 @@ header, footer, section {
     margin: 0 auto;
     overflow: auto; /*nagyon ajánlott beállítani*/
 }
+
+.icons {
+    height: 15px;
+    filter: grayscale(100%);
+}
+
+.icons:hover {
+    filter: none;
+}
+
+.half {
+    position: relative;
+    width: 50%;
+    float: left;
+}
+
+.one-fifth {
+    position: relative;
+    width: 20%;
+    float: left;
+}
