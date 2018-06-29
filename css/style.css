@@ -33,7 +33,7 @@ header, footer, section {
 
 .icons {
     height: 15px;
-    filter: grayscale(100%);
+    filter: grayscale(100%) brightness(0.4);
 }
 
 .icons:hover {
@@ -85,4 +85,7 @@ section {
         display: block;
         width: 100%;
     }
+}
+.nav-icon {
+    text-align: right;
 }
