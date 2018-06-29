@@ -13,6 +13,24 @@ header, footer, section {
     overflow: auto; /*nagyon ajánlott beállítani*/
 }
 
+
+.one-third {
+    position: relative;
+    box-sizing: border-box;
+    width: 33.33%;
+    float: left;
+   height: auto;
+   
+}
+
+.two-third {
+    position: relative;
+    box-sizing: border-box;
+    width: 66.66%;
+    float: left;
+    height: auto;
+}
+
 .icons {
     height: 15px;
     filter: grayscale(100%);
