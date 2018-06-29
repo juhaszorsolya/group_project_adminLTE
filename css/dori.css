@@ -1,3 +1,27 @@
+@font-face {
+    font-family: 'JosefinSans';
+    src: url('/fonts/Josefin_Sans/JosefinSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('/fonts/Nunito/Nunito-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('/fonts/Nunito/Nunito-Bold.ttf');
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'JosefinSans', sans-serif;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
 body, p {
     margin: 0;
 }
@@ -12,6 +36,22 @@ header, footer, section {
     margin: 0 auto;
     overflow: auto; /*nagyon ajánlott beállítani*/
 }
+.one-third {
+    position: relative;
+    box-sizing: border-box;
+    width: 33.33%;
+    float: left;
+   height: auto;
+   
+}
+
+.two-third {
+    position: relative;
+    box-sizing: border-box;
+    width: 66.66%;
+    float: left;
+    height: auto;
+}
 
 .half {
     position: relative;
@@ -19,9 +59,43 @@ header, footer, section {
     float: left;
 }
 
-.section78 {
-    text-align: center;
+.ipad {
+    width: 99.99%;
+}
 
+section {
+    padding: 20vh 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.text-color {
+    color: #5e655e;
+}
+
+.text-left {
+    padding-right: 10vw;
+}
+
+.text-right {
+    padding-left: 10vw;
+}
+
+.gaborsection2 {
+    background-color: #f5f5f0;
+}
+
+@media only screen and (max-width: 600px) {
+    .one-third, .two-third { 
+        display: block;
+        width: 100%;
+    }
+}
+
+.section7-8 {
+    text-align: center;
 }
 
 .download-btn {
@@ -33,17 +107,19 @@ header, footer, section {
     border-style: none;
     padding: 15px 10px;
     font-size: 1em;
-    font-family: 'Nunito';
 }
 
 footer {
     margin: 10px auto;
     font-size: 12px;
+    border-top: 1px solid lightgray;
+    padding-top: 10px;
 }
 
 .message {
-    background-color: #f5f5f0;
+    background-color: #1E1F21;
     display: block;
+    color: #fff;
 }
 
 a:link {
@@ -65,7 +141,7 @@ a:link {
 .icons:hover {
     filter: none;
 }
-form {
+.submit-form {
     width: 500px;
     margin: 25px auto;
 }
@@ -82,18 +158,21 @@ form {
     float: left;
     border-radius: 20px 0 0 20px;
     width: calc(100% - 100px);
+    font-family: inherit
 }
 
 .rounded-from-right {
     float: right;
     border-radius: 0 20px 20px 0;
     width: 100px;
-    background-color: #1E1F21;
-    color: #f5f5f0;
+    background-color: #000;
+    color: #fff;
     font-size: 15px;
     font-weight: bold;
+    font-family: inherit;
 }
 
 .clearfix {
 clear: both;
 }
+
