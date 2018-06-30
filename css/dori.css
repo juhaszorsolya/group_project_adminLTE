@@ -176,3 +176,86 @@ a:link {
 clear: both;
 }
 
+/*Gábor része*/
+.gaborsection1 {
+    background: linear-gradient(rgba(255, 124, 0, 0.4), rgba(255, 124, 0, 0.4)),
+    rgba(255, 124, 0,0.4) url('../images/gg-background.jpg');
+    background-position: center center;
+    background-size: cover;
+    object-fit: fill;
+    position: relative;
+    /*z-index: -1;*/
+    width: auto;
+    height: 30vh;
+}
+
+.gabordiv1 {
+    text-align: center;
+    width: 30%;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 14px;
+   }
+
+.gaborp1 {letter-spacing: 1px;
+    font-size: 8px;}
+
+.gaborsection2 {
+    background-color: #f5f5f0;
+    width: auto;
+    height: 30vh;
+}
+
+.gabordiv2 {
+    text-align: center;
+    width: 40%;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    letter-spacing: 1px;
+    font-size: 14px;
+    vertical-align: middle;
+   }
+   
+   .gaborsection3 {
+    background-color: #FFFFFF;
+    width: auto;
+    height: 60vh;
+}
+
+   .gabordiv3 {
+    text-align: left; 
+    margin-top: 80px;
+    margin-right: auto;
+    margin-bottom: 60px;
+    margin-left: 120px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    position: relative;
+    box-sizing: border-box;
+    width: 33.33%;
+    float: left;
+    height: auto;
+    vertical-align: middle;
+   }
+
+.gabordiv4 {
+    letter-spacing: 1px;
+    position: relative;
+    box-sizing: border-box;
+    width: auto;
+    float: right;
+    height: auto;
+    vertical-align: middle;
+   }
+
+.gaborimage1 {
+    width: auto;
+    height: 60vh;
+    align: center;
+
+}
