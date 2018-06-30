@@ -12,7 +12,7 @@ body {
 }
 
 .header-section {
-    background: linear-gradient(to bottom left, #1E1F21, #B4B8C7);
+    background: linear-gradient(to bottom left, #1E1F21, #D2D7E8);
     color: #fff;
     padding-top: 0px;
     padding-bottom: 30px;
@@ -107,6 +107,8 @@ h2 {
 
 .input-box {
     width: 400px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 p {
