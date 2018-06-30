@@ -1,6 +1,6 @@
 var stock = [
     {
-        id: 001,
+        id: '001',
         name: 'iPhone X 64GB',
         category: 'Smartphone',
         price: 379990,
@@ -11,7 +11,7 @@ var stock = [
     },
 
     {
-        id: 002,
+        id: '002',
         name: 'iPhone X 256GB',
         category: 'Smartphone',
         price: 436990,
@@ -22,7 +22,7 @@ var stock = [
     },
 
     {
-        id: 003,
+        id: '003',
         name: 'iPhone 8 64GB',
         category: 'Smartphone',
         price: 249990,
@@ -33,7 +33,7 @@ var stock = [
     },
 
     {
-        id: 004,
+        id: '004',
         name: 'iPhone 8 256GB',
         category: 'Smartphone',
         price: 309990,
@@ -44,7 +44,7 @@ var stock = [
     },
 
     {
-        id: 005,
+        id: '005',
         name: 'iPhone 8 Plus 64GB',
         category: 'Smartphone',
         price: 289990,
@@ -55,7 +55,7 @@ var stock = [
     },
 
     {
-        id: 006,
+        id: '006',
         name: 'iPhone 8 Plus 256GB',
         category: 'Smartphone',
         price: 339990,
@@ -66,7 +66,7 @@ var stock = [
     },
 
     {
-        id: 007,
+        id: '007',
         name: 'iPhone 7 32GB',
         category: 'Smartphone',
         price: 179990,
@@ -77,7 +77,7 @@ var stock = [
     },
 
     {
-        id: 008,
+        id: '008',
         name: 'iPhone 7 128GB',
         category: 'Smartphone',
         price: 219990,
@@ -88,7 +88,7 @@ var stock = [
     },
 
     {
-        id: 009,
+        id: '009',
         name: 'iPhone 7 Plus 128GB',
         category: 'Smartphone',
         price: 249990,
@@ -99,7 +99,7 @@ var stock = [
     },
 
     {
-        id: 010,
+        id: '010',
         name: 'iPhone 7 Plus 256GB',
         category: 'Smartphone',
         price: 269990,
@@ -110,7 +110,7 @@ var stock = [
     },
 
     {
-        id: 011,
+        id: '011',
         name: 'iPhone SE 32GB',
         category: 'Smartphone',
         price: 109990,
