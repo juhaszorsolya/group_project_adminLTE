@@ -14,10 +14,11 @@ body {
 .header-section {
     background: linear-gradient(to bottom left, #1E1F21, #B4B8C7);
     color: #fff;
+    padding-top: 0px;
     padding-bottom: 30px;
 }
 
-.container {
+.container-header, .container-contact {
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
@@ -33,7 +34,7 @@ body {
     box-sizing: border-box;
 }
 
-img {
+.img-header {
     max-width: 100%;
     padding-top: 7em;
     padding-bottom: 0;
@@ -81,7 +82,7 @@ h2 {
     font-family: 'Nunito';
 }
 
-.btn {
+.button {
     border-radius: 20px;
     border-style: none;
     padding: 5px 10px;
