@@ -1,6 +1,4 @@
 /*1.feladat*/
-
-/*2.feladat*/
 var i = 1;
 var prices = [];
 while (i < stock.length) {
@@ -8,6 +6,15 @@ while (i < stock.length) {
     i++;
 }
 console.log(Math.max(...prices))
+
+/*2.feladat*/
+var i = 1;
+var dates = [];
+while (i < stock.length) {
+    dates.push(new Date(stock[i].createdAt));
+    i++;
+}
+console.log(new Date(Math.max(...dates)))
 
 /*3. feladat*/
 var i = 1;
