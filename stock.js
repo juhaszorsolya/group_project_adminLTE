@@ -120,4 +120,55 @@ var stock = [
         updatedAt: '2018-05-01',
     },
 
+    {
+        id: 012,
+        name: 'iPad mini 4 128GB',
+        category: 'Tablet',
+        price: 144000,
+        count: 7,
+        sold: 43,
+        createdAt: '2015-04-21',
+        updatedAt: '2018-06-10'
+    },
+    {
+        id: 013,
+        name: 'iPad Pro 128GB',
+        category: 'Tablet',
+        price: 191990,
+        count: 3,
+        sold: 14,
+        createdAt: '2016-03-02',
+        updatedAt: '2018-04-18'
+    },
+    {
+        id: 014,
+        name: 'iPad Pro 64GB',
+        category: 'Tablet',
+        price: 234990,
+        count: 10,
+        sold: 21,
+        createdAt: '2016-10-30',
+        updatedAt: '2018-03-14'
+    },
+    {
+        id: 015,
+        name: 'iPad Pro 256GB',
+        category: 'Tablet',
+        price: 382790,
+        count: 3,
+        sold: 10,
+        createdAt: '2015-08-03',
+        updatedAt: '2018-04-11'
+    },
+    {
+        id: 016,
+        name: 'iPad 6 32GB',
+        category: 'Tablet',
+        price: 161990,
+        count: 15,
+        sold: 50,
+        createdAt: '2015-06-21',
+        updatedAt: '2018-1-14'
+    }
+
 ]
