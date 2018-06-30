@@ -50,10 +50,6 @@ header, footer, section {
     width: 99.99%;
 }
 
-section {
-    padding: 15vh 0;
-}
-
 .uppercase {
     text-transform: uppercase;
 }
