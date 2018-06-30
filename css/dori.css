@@ -186,7 +186,7 @@ clear: both;
     position: relative;
     /*z-index: -1;*/
     width: auto;
-    height: 30vh;
+    height: auto;
 }
 
 .gabordiv1 {
@@ -206,7 +206,7 @@ clear: both;
 .gaborsection2 {
     background-color: #f5f5f0;
     width: auto;
-    height: 30vh;
+    height: auto;
 }
 
 .gabordiv2 {
@@ -224,7 +224,7 @@ clear: both;
    .gaborsection3 {
     background-color: #FFFFFF;
     width: auto;
-    height: 60vh;
+    height: auto;
 }
 
    .gabordiv3 {
@@ -255,5 +255,5 @@ clear: both;
 
 .gaborimage1 {
     width: auto;
-    height: 60vh;
+    height: 500px;
 }
