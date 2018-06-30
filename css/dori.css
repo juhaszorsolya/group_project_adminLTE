@@ -178,8 +178,8 @@ clear: both;
 
 /*Gábor része*/
 .gaborsection1 {
-    background: linear-gradient(rgba(255, 124, 0, 0.4), rgba(255, 124, 0, 0.4)),
-    rgba(255, 124, 0,0.4) url('../images/gg-background.jpg');
+    background: linear-gradient(rgba(30, 31, 33, 0.85), rgba(30, 31, 33, 0.85)),
+     rgba(30, 31, 33, 0.85) url('../images/gg-background.jpg');
     background-position: center center;
     background-size: cover;
     object-fit: fill;
