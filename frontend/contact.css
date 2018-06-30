@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'Nunito';
+    src: url(/fonts/Nunito/Nunito-Regular.ttf);
+}
+@font-face {
+    font-family: 'Josefin_Sans';
+    src: url(/fonts/Josefin_Sans/JosefinSans-Regular.ttf);
+}
+
+body {
+    margin: 0px;
+}
+
+.header-section {
+    background: linear-gradient(to bottom left, #1E1F21, #B4B8C7);
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+.container {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+.half {
+    position: relative;
+    padding: 10px;
+    width: calc(50% - 20px);
+    float: left;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    padding-top: 7em;
+    padding-bottom: 0;
+    
+}
+
+.main-menu {
+    font-family: 'Nunito';
+    font-size: 0.9em;
+    padding: 1em;
+    text-align: right;
+}
+
+.main-menu-element {
+    text-decoration: none;
+    margin: 0em 0.7em;
+    color: #fff;
+}
+
+h1 {
+    font-family: 'Josefin_Sans';
+    font-size: 3.5em;
+    margin-top: 0;
+}
+
+h2 {
+    font-family: 'Josefin_Sans';
+}
+
+.header-short-title {
+    
+    font-size: 1.3em;
+    text-transform: uppercase;
+}
+
+
+.header-half {
+    font-family: 'Nunito';
+}
+
+.header-description {
+    padding-bottom: 20px;
+}
+.contact-description {
+    font-family: 'Nunito';
+}
+
+.btn {
+    border-radius: 20px;
+    border-style: none;
+    padding: 5px 10px;
+    font-size: 1em;
+    font-family: 'Nunito';
+}
+
+.header-btn {
+    background-color: #fff;
+    color: #1E1F21;
+}
+
+.submit-btn {
+    background-color: #1E1F21;
+    color: #fff;
+    margin: 1em 0;
+}
+
+.half-bottom-left {
+    padding-left: 90px;
+}
+
+.input-box {
+    width: 400px;
+}
+
+p {
+    font-size: 1em;
+}
+
+.contact-description-bold {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.form-label {
+    font-weight: bold;
+    
+}
+
+.placeholder {
+    height: 1.5em;
+    margin: 0.83em 0;
+}
