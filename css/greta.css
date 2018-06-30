@@ -1,0 +1,25 @@
+p {
+    font-size: 14px;
+}
+ .phone {
+     width: 100%;
+ }
+
+.infos {
+    position: relative;
+    box-sizing: border-box;
+    width: 33.33%;
+    float: left;
+    height: auto;
+    padding: 25px;
+}
+
+.inline-title {
+    display: inline;
+}
+
+i {
+    color: #4267b2;
+    float: left;
+    margin-left: -22px;
+}
