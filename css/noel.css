@@ -22,11 +22,12 @@
 
 .noelpp {
     font-family: "Nunito";
-    margin: 0.5 em 0;
+    margin: 0.5em 0;
     
 }
-.noela:visitet {
-    color: #00f dotted;
+.noela:visited {
+    color: #00f;
+    border-bottom: 1px dotted #00f;
 }
 
 /*Comingsoon*/
