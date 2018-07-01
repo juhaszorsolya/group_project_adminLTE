@@ -32,12 +32,12 @@
 /*Comingsoon*/
 @font-face {
     font-family: 'JosefinSans';
-    src: url('/fonts/Josefin_Sans/JosefinSans-Regular.ttf');
+    src: url('../fonts/Josefin_Sans/JosefinSans-Regular.ttf');
 }
 
 @font-face {
     font-family: 'Nunito';
-    src: url('/fonts/Nunito/Nunito-Regular.ttf');
+    src: url('../fonts/Nunito/Nunito-Regular.ttf');
 }
 
 body,p, h1 {
@@ -46,7 +46,7 @@ body,p, h1 {
 
 .noelsection {
     background: linear-gradient(rgba(30, 31, 33, 0.85), rgba(30, 31, 33, 0.85)),
-    rgba(30, 31, 33, 0.85) url('/img/standby.jpg');
+    rgba(30, 31, 33, 0.85) url('../img/standby.jpg');
    background-position: center center;
    background-size: cover;
    object-fit: fill;

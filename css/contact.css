@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'Nunito';
-    src: url(/fonts/Nunito/Nunito-Regular.ttf);
+    src: url('../fonts/Nunito/Nunito-Regular.ttf');
 }
 @font-face {
     font-family: 'Josefin_Sans';
-    src: url(/fonts/Josefin_Sans/JosefinSans-Regular.ttf);
+    src: url('../fonts/Josefin_Sans/JosefinSans-Regular.ttf');
 }
 
 body {
