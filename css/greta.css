@@ -36,9 +36,9 @@ i {
 }
 .text-left {
     text-align: left;
-    margin-top: 12vh; 
+    margin-top: 10em; 
 }
 .text-right {
     text-align: right;
-    margin-top: 19vh;
+    margin-top: 10em;
 }
