@@ -41,7 +41,7 @@ header, footer, section {
     box-sizing: border-box;
     width: 33.33%;
     float: left;
-   height: auto;
+    height: auto;
    
 }
 
@@ -76,11 +76,11 @@ section {
 }
 
 .text-left {
-    padding-right: 10vw;
+    padding-right: 10em;
 }
 
 .text-right {
-    padding-left: 10vw;
+    padding-left: 10em;
 }
 
 .gaborsection2 {
@@ -228,33 +228,8 @@ clear: both;
     height: auto;
 }
 
-   .gabordiv3 {
-    text-align: left; 
-    margin-top: 80px;
-    margin-right: auto;
-    margin-bottom: 60px;
-    margin-left: 120px;
-    letter-spacing: 1px;
-    font-size: 14px;
-    position: relative;
-    box-sizing: border-box;
-    width: 33.33%;
-    float: left;
-    height: auto;
-    vertical-align: middle;
-   }
-
-.gabordiv4 {
-    letter-spacing: 1px;
-    position: relative;
-    box-sizing: border-box;
-    width: auto;
-    float: right;
-    height: auto;
-    vertical-align: middle;
-   }
-
 .gaborimage1 {
     width: auto;
-    height: 500px;
+    height: 350px;
+    float: right;
 }
