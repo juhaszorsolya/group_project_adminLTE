@@ -1,11 +1,12 @@
 /*1.feladat*/
 var i = 0;
-var prices = [];
-while (i < stock.length) {
-    prices.push(stock[i].price);
-    i++;
+var best = stock[i]
+for (i = 0; i < stock.length; i++) {
+    if (stock[i].sold > best.sold) {
+        best = stock[i];
+    }
 }
-console.log(Math.max(...prices))
+console.log(best.name, best.sold);
 
 /*2.feladat*/
 var i = 0;
