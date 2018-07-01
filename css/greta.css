@@ -19,7 +19,26 @@ p {
 }
 
 i {
-    color: #4267b2;
+    color: #5a5c63;
     float: left;
     margin-left: -22px;
+}
+.text-left, .text-right {
+    letter-spacing: 1px;
+    font-size: 14px;
+    position: relative;
+    box-sizing: border-box;
+    /* width: 33.33%; */
+    
+    float: left;
+    height: auto;
+    vertical-align: middle;
+}
+.text-left {
+    text-align: left;
+    margin-top: 12vh; 
+}
+.text-right {
+    text-align: right;
+    margin-top: 19vh;
 }
