@@ -6,8 +6,8 @@ var stock = [
         price: 379990,
         count: 2,
         sold: 38,
-        createdAt: '2017,11,03',
-        updatedAt: '2018,05,30',
+        createdAt: '2017-11-03',
+        updatedAt: '2018-05-30',
     },
 
     {
@@ -17,8 +17,8 @@ var stock = [
         price: 436990,
         count: 4,
         sold: 49,
-        createdAt: '2017,11,03',
-        updatedAt: '2018,06,17',
+        createdAt: '2017-11-03',
+        updatedAt: '2018-06-17',
     },
 
     {
@@ -26,10 +26,10 @@ var stock = [
         name: 'iPhone 8 64GB',
         category: 'Smartphone',
         price: 249990,
-        count: 5,
+        count: 6,
         sold: 50,
-        createdAt: '2017,10,01',
-        updatedAt: '2018,06,10',
+        createdAt: '2017-10-01',
+        updatedAt: '2018-06-10',
     },
 
     {
@@ -37,10 +37,10 @@ var stock = [
         name: 'iPhone 8 256GB',
         category: 'Smartphone',
         price: 309990,
-        count: 7,
+        count: 8,
         sold: 68,
-        createdAt: '2017,10,01',
-        updatedAt: '2018,06,14',
+        createdAt: '2017-10-01',
+        updatedAt: '2018-06-14',
     },
 
     {
@@ -50,8 +50,8 @@ var stock = [
         price: 289990,
         count: 2,
         sold: 35,
-        createdAt: '2017,10,01',
-        updatedAt: '2018,05,14',
+        createdAt: '2017-10-01',
+        updatedAt: '2018-05-14',
     },
 
     {
@@ -59,10 +59,10 @@ var stock = [
         name: 'iPhone 8 Plus 256GB',
         category: 'Smartphone',
         price: 339990,
-        count: 8,
+        count: 9,
         sold: 71,
-        createdAt: '2017,10,01',
-        updatedAt: '2018,06,25',
+        createdAt: '2017-10-01',
+        updatedAt: '2018-06-25',
     },
 
     {
@@ -72,8 +72,8 @@ var stock = [
         price: 179990,
         count: 1,
         sold: 29,
-        createdAt: '2016,09,24',
-        updatedAt: '2018,03,30',
+        createdAt: '2016-09-24',
+        updatedAt: '2018-03-30',
     },
 
     {
@@ -83,8 +83,8 @@ var stock = [
         price: 219990,
         count: 2,
         sold: 132,
-        createdAt: '2016,09,24',
-        updatedAt: '2018,04,17',
+        createdAt: '2016-09-24',
+        updatedAt: '2018-04-17',
     },
 
     {
@@ -94,8 +94,8 @@ var stock = [
         price: 249990,
         count: 1,
         sold: 89,
-        createdAt: '2016,09,24',
-        updatedAt: '2018,03,30',
+        createdAt: '2016-09-24',
+        updatedAt: '2018-03-30',
     },
 
     {
@@ -105,8 +105,8 @@ var stock = [
         price: 269990,
         count: 2,
         sold: 111,
-        createdAt: '2016,09,24',
-        updatedAt: '2018,04,29',
+        createdAt: '2016-09-24',
+        updatedAt: '2018-04-29',
     },
 
     {
@@ -116,8 +116,161 @@ var stock = [
         price: 109990,
         count: 3,
         sold: 66,
-        createdAt: '2016,03,29',
-        updatedAt: '2018,05,01',
+        createdAt: '2016-03-29',
+        updatedAt: '2018-05-01',
     },
 
+    {
+        id: '012',
+        name: 'MacBook 12" i5 1.3GHz/8GB/512GB',
+        category: 'Laptop',
+        price: 619990,
+        count: 3,
+        sold: 31,
+        createdAt: '2017-02-06',
+        updatedAt: '2018-06-01',
+    },
+
+    {
+        id: '013',
+        name: 'MacBook Air 13" i5 1.8GHz/8GB/256GB',
+        category: 'Laptop',
+        price: 439990,
+        count: 5,
+        sold: 40,
+        createdAt: '2017-07-06',
+        updatedAt: '2018-06-06',
+    },
+
+    {
+        id: '014',
+        name: 'iMac 27" 3.8GHz 5K/8GB/2TB FD',
+        category: 'Computer',
+        price: 879990,
+        count: 1,
+        sold: 12,
+        createdAt: '2017-09-14',
+        updatedAt: '2018-05-17',
+    },
+
+    {
+        id: '015',
+        name: 'iPad mini 4 128GB',
+        category: 'Tablet',
+        price: 191990,
+        count: 8,
+        sold: 89,
+        createdAt: '2016-10-17',
+        updatedAt: '2018-06-29',
+    },
+
+    {
+        id: '016',
+        name: 'iPad Pro 10.5" 512GB',
+        category: 'Tablet',
+        price: 416990,
+        count: 6,
+        sold: 59,
+        createdAt: '2017-02-14',
+        updatedAt: '2018-06-10',
+    },
+
+    {
+        id: '017',
+        name: 'iPad Pro 12.9" 512GB',
+        category: 'Tablet',
+        price: 465990,
+        count: 2,
+        sold: 33,
+        createdAt: '2017-10-20',
+        updatedAt: '2018-05-02',
+    },
+
+    {
+        id: '018',
+        name: 'Apple Watch Series 3',
+        category: 'Smart Watch',
+        price: 119980,
+        count: 10,
+        sold: 99,
+        createdAt: '2017-10-15',
+        updatedAt: '2018-06-30',
+    },
+
+    {
+        id: '019',
+        name: 'Apple Lightning USB kábel',
+        category: 'Accessories',
+        price: 6900,
+        count: 25,
+        sold: 298,
+        createdAt: '2016-09-14',
+        updatedAt: '2018-06-30',
+    },
+
+    {
+        id: '020',
+        name: 'Apple - Lightning–30 tűs adapter (0,2 m)',
+        category: 'Accessories',
+        price: 13900,
+        count: 10,
+        sold: 103,
+        createdAt: '2016-09-14',
+        updatedAt: '2018-06-01',
+    },
+
+    {
+        id: '021',
+        name: '12 wattos Apple USB hálózati adapter',
+        category: 'Accessories',
+        price: 6900,
+        count: 20,
+        sold: 250,
+        createdAt: '2016-09-14',
+        updatedAt: '2018-06-03',
+    },
+
+    {
+        id: '022',
+        name: 'Apple Magic Keyboard számbillentyűzettel',
+        category: 'Accessories',
+        price: 49900,
+        count: 5,
+        sold: 61,
+        createdAt: '2016-09-14',
+        updatedAt: '2018-05-11',
+    },
+
+    {
+        id: '023',
+        name: 'EPICO - Vezeték nélküli külső akkumulátor 10000 mAh',
+        category: 'Accessories',
+        price: 14900,
+        count: 2,
+        sold: 10,
+        createdAt: '2017-07-22',
+        updatedAt: '2018-04-03',
+    },
+
+    {
+        id: '024',
+        name: 'Apple - iPhone 8 Plus/7 Plus telefontok',
+        category: 'Accessories',
+        price: 13900,
+        count: 14,
+        sold: 110,
+        createdAt: '2017-11-19',
+        updatedAt: '2018-06-28',
+    },
+
+    {
+        id: '025',
+        name: 'Apple - iPhone X telefontok',
+        category: 'Accessories',
+        price: 17900,
+        count: 8,
+        sold: 43,
+        createdAt: '2017-10-27',
+        updatedAt: '2018-06-05',
+    },
 ]
