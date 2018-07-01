@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'JosefinSans';
+    src: url('/fonts/Josefin_Sans/JosefinSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('/fonts/Nunito/Nunito-Regular.ttf');
+}
+
+body,p {
+    margin: 0;
+}
+
+.noel-centered {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.noelh1 {
+    font-family: "JosefinSans";
+}
+
+.noelp {
+    font-family: "Nunito";
+}
+
+.noela {
+    text-decoration: none;
+    border-bottom: 1px #00f dotted;
+    font-family: "Nunito";
+}
+
+.noel-col-container {
+    display: table;
+   
+    content: "";
+    background: #ddd;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 51;   
+
+    width: 50%;
+    top: 50%;
+    float: left;
+    display: table;
+    position: relative;
+    transform: translateY(+50%);
+}
+
+.noel-col {
+    position: relative;
+    box-sizing: content-box;
+    width: 50%;
+    top: 50%;
+    float: left;
+    display: table;
+    position: relative;
+    transform: translateY(+50%);
+}
+
+.kingsize {
+    font-size: 4em;
+}
+
+.noelsection {
+    width: 100%;
+   background-image: url("/img/standby.jpg")
+    
+}
+
+body {
+    
+    background-size: cover;
+    height: 100%;
+    overflow: auto;
+}
+
