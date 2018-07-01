@@ -1,5 +1,5 @@
 /*1.feladat*/
-var i = 1;
+var i = 0;
 var prices = [];
 while (i < stock.length) {
     prices.push(stock[i].price);
@@ -8,16 +8,17 @@ while (i < stock.length) {
 console.log(Math.max(...prices))
 
 /*2.feladat*/
-var i = 1;
-var dates = [];
-while (i < stock.length) {
-    dates.push(new Date(stock[i].createdAt));
-    i++;
+var i = 0;
+var legújabb = stock[i]
+for (i = 0; i < stock.length; i++) {
+    if (stock[i].createdAt > legújabb.createdAt) {
+        legújabb = stock[i];
+    }
 }
-console.log(new Date(Math.max(...dates)))
+console.log(legújabb.name, legújabb.createdAt);
 
 /*3. feladat*/
-var i = 1;
+var i = 0;
 var fullprice = 0;
 while (i < stock.length) {
     fullprice += stock[i].price;
@@ -26,7 +27,7 @@ while (i < stock.length) {
 console.log(fullprice)
 
 /*4.feladat*/
-var i = 1;
+var i = 0;
 var fullprice = 0;
 while (i < stock.length) {
     fullprice += stock[i].price;
