@@ -1,3 +1,35 @@
+/*404*/
+.noelcontainer {
+    position: relative;
+    height: 5vw;
+    width:35%;
+    padding: 15% 0 0 10%;
+}
+
+.noel-centered {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.noela {
+    text-decoration: none;
+    border-bottom: 1px #00f dotted;
+    font-family: "Nunito";
+}
+
+
+.noelpp {
+    font-family: "Nunito";
+    margin: 0.5 em 0;
+    
+}
+.noela:visitet {
+    color: #00f dotted;
+}
+
+/*Comingsoon*/
 @font-face {
     font-family: 'JosefinSans';
     src: url('/fonts/Josefin_Sans/JosefinSans-Regular.ttf');
@@ -8,73 +40,40 @@
     src: url('/fonts/Nunito/Nunito-Regular.ttf');
 }
 
-body,p {
+body,p, h1 {
     margin: 0;
 }
 
-.noel-centered {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.noelh1 {
-    font-family: "JosefinSans";
-}
-
-.noelp {
-    font-family: "Nunito";
-}
-
-.noela {
-    text-decoration: none;
-    border-bottom: 1px #00f dotted;
-    font-family: "Nunito";
-}
-
-.noel-col-container {
-    display: table;
-    width: 50%;
-    position: relative;
-    top: 50%;
-    transform: translateY(+50%);
-  
-}
-
-.noel-col {
-    display: table-cell; 
-}
-
-.kingsize {
-    font-size: 3em;
-}
-
 .noelsection {
-    
     background: linear-gradient(rgba(30, 31, 33, 0.85), rgba(30, 31, 33, 0.85)),
-    rgba(30, 31, 33, 0.85) url('../img/standby.jpg');
+    rgba(30, 31, 33, 0.85) url('/img/standby.jpg');
    background-position: center center;
    background-size: cover;
    object-fit: fill;
    position: relative;
-   width: auto;
-   height: auto;
+   width: 100%;
+   height: 100vh;
 }
 
-body {
+.noelh1 {
+    font-family: "JosefinSans";
+    margin: 0.33em 0;
+}
+
+.noelp {
+    font-family: "Nunito";
+    margin: 1em 0;
     
-    background-size: cover;
-    height: 100%;
-    overflow: auto;
 }
 
-
-.noelbackground {
-    visibility: hidden;
-    max-width: 100%;
+.kingsize {
+    font-size: 5em;
 }
 
-.noelcontainer {
-    position: relative;
+.text-white {
+    color: #fff;
+}
+
+.titanic {
+    float: none;
 }
