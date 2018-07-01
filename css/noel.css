@@ -27,15 +27,18 @@ body,p {
     font-family: "Nunito";
 }
 
-.noela {
+noela {
     text-decoration: none;
     border-bottom: 1px #00f dotted;
     font-family: "Nunito";
 }
 
 .noel-col-container {
-    display: table; /* Make the container element behave like a table */
+    display: table;
     width: 50%;
+    position: relative;
+    top: 50%;
+    transform: translateY(+50%);
   
 }
 
@@ -44,7 +47,7 @@ body,p {
 }
 
 .kingsize {
-    font-size: 4em;
+    font-size: 3em;
 }
 
 .noelsection {
@@ -55,10 +58,8 @@ body,p {
    background-size: cover;
    object-fit: fill;
    position: relative;
-   /*z-index: -1;*/
    width: auto;
    height: auto;
-    
 }
 
 body {
@@ -76,5 +77,4 @@ body {
 
 .noelcontainer {
     position: relative;
-    color: white;
 }
