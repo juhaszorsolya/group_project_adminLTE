@@ -34,35 +34,13 @@ body,p {
 }
 
 .noel-col-container {
-    display: table;
-   
-    content: "";
-    background: #ddd;
-    opacity: 0.5;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: 51;   
-
+    display: table; /* Make the container element behave like a table */
     width: 50%;
-    top: 50%;
-    float: left;
-    display: table;
-    position: relative;
-    transform: translateY(+50%);
+  
 }
 
 .noel-col {
-    position: relative;
-    box-sizing: content-box;
-    width: 50%;
-    top: 50%;
-    float: left;
-    display: table;
-    position: relative;
-    transform: translateY(+50%);
+    display: table-cell; 
 }
 
 .kingsize {
@@ -70,8 +48,16 @@ body,p {
 }
 
 .noelsection {
-    width: 100%;
-   background-image: url("/img/standby.jpg")
+    
+    background: linear-gradient(rgba(30, 31, 33, 0.85), rgba(30, 31, 33, 0.85)),
+    rgba(30, 31, 33, 0.85) url('../img/standby.jpg');
+   background-position: center center;
+   background-size: cover;
+   object-fit: fill;
+   position: relative;
+   /*z-index: -1;*/
+   width: auto;
+   height: auto;
     
 }
 
@@ -82,3 +68,13 @@ body {
     overflow: auto;
 }
 
+
+.noelbackground {
+    visibility: hidden;
+    max-width: 100%;
+}
+
+.noelcontainer {
+    position: relative;
+    color: white;
+}
